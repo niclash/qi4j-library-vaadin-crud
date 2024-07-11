@@ -1,3 +1,5 @@
+NOTE: This is a fork of a Vaadin add-on that works with Spring, Spring Data and that eco-system. This fork is for Qi4j/Polygene to see if we can re-use it for Qi4j. Initial checks looks promising, as the add-on has separated out the Spring and JPA dependencies quite a lot.
+
 [![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/crud-ui-add-on)
 [![Stars on Vaadin Directory](https://img.shields.io/vaadin-directory/star/crud-ui-add-on.svg)](https://vaadin.com/directory/component/crud-ui-add-on)
 [![Latest version on vaadin.com/directory](https://img.shields.io/vaadin-directory/v/crud-ui-add-on.svg)](https://img.shields.io/vaadin-directory/v/crud-ui-add-on.svg)
