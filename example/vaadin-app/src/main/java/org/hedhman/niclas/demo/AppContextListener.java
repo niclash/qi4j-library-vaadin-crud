@@ -21,7 +21,7 @@ import org.hedhman.niclas.demo.bootstrap.AppAssembler;
 import org.hedhman.niclas.demo.bootstrap.VaadinModule;
 import org.hedhman.niclas.demo.bootstrap.UiLayer;
 import org.apache.polygene.bootstrap.layered.LayeredApplicationAssembler;
-import org.qi4j.library.web.Qi4jContextListener;
+import org.qi4j.library.webx.Qi4jContextListener;
 
 import static org.apache.polygene.api.structure.Application.Mode.development;
 

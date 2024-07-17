@@ -22,9 +22,9 @@ import com.vaadin.flow.server.VaadinServlet;
 import com.vaadin.flow.server.VaadinServletService;
 import jakarta.servlet.ServletException;
 import org.apache.polygene.api.structure.Module;
-import org.qi4j.library.web.vaadin.Qi4jInstantiator;
+import org.qi4j.library.webx.vaadin.Qi4jInstantiator;
 
-import static org.qi4j.library.web.Qi4jContextListener.QI4J_VAADIN_MODULE;
+import static org.qi4j.library.webx.Qi4jContextListener.QI4J_VAADIN_MODULE;
 
 /**
  * The entry point of the Spring Boot application.

@@ -29,12 +29,12 @@ import org.apache.polygene.api.object.ObjectFactory;
 import org.apache.polygene.api.structure.Module;
 import org.hedhman.niclas.demo.service.GroupService;
 import org.hedhman.niclas.demo.service.UserService;
-import org.qi4j.library.web.vaadin.crud.impl.GridCrud;
-import org.qi4j.library.web.vaadin.Qi4jManaged;
+import org.qi4j.library.webx.vaadin.crud.impl.GridCrud;
+import org.qi4j.library.webx.vaadin.Qi4jManaged;
 import org.hedhman.niclas.demo.entity.User;
 import org.hedhman.niclas.demo.ui.MainLayout;
-import org.qi4j.library.web.vaadin.crud.form.impl.form.factory.DefaultCrudFormFactory;
-import org.qi4j.library.web.vaadin.crud.layout.impl.HorizontalSplitCrudLayout;
+import org.qi4j.library.webx.vaadin.crud.form.impl.form.factory.DefaultCrudFormFactory;
+import org.qi4j.library.webx.vaadin.crud.layout.impl.HorizontalSplitCrudLayout;
 
 @Route(value = "split-layout", layout = MainLayout.class)
 @Qi4jManaged

@@ -28,10 +28,10 @@ import org.apache.polygene.api.property.PropertyDescriptor;
 import org.apache.polygene.api.structure.Module;
 import org.hedhman.niclas.demo.entity.Technology;
 import org.hedhman.niclas.demo.service.TechnologyService;
-import org.qi4j.library.web.vaadin.crud.impl.TreeGridCrud;
-import org.qi4j.library.web.vaadin.Qi4jManaged;
+import org.qi4j.library.webx.vaadin.crud.impl.TreeGridCrud;
+import org.qi4j.library.webx.vaadin.Qi4jManaged;
 import org.hedhman.niclas.demo.ui.MainLayout;
-import org.qi4j.library.web.vaadin.crud.form.CrudFormFactory;
+import org.qi4j.library.webx.vaadin.crud.form.CrudFormFactory;
 
 @Route(value = "simple-tree", layout = MainLayout.class)
 @Qi4jManaged

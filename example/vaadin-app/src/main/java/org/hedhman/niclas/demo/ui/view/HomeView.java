@@ -19,7 +19,7 @@ import com.vaadin.flow.component.Html;
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
-import org.qi4j.library.web.vaadin.Qi4jManaged;
+import org.qi4j.library.webx.vaadin.Qi4jManaged;
 import org.hedhman.niclas.demo.ui.MainLayout;
 
 @Route(value = "", layout = MainLayout.class)

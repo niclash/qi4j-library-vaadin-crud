@@ -19,18 +19,18 @@ import org.apache.polygene.bootstrap.AssemblyException;
 import org.apache.polygene.bootstrap.LayerAssembly;
 import org.apache.polygene.bootstrap.ModuleAssembly;
 import org.apache.polygene.bootstrap.layered.ModuleAssembler;
-import org.qi4j.library.web.UnitOfWorkFilter;
-import org.qi4j.library.web.vaadin.crud.impl.GridCrud;
-import org.qi4j.library.web.vaadin.crud.impl.TreeGridCrud;
-import org.qi4j.library.web.vaadin.Qi4jInstantiator;
+import org.qi4j.library.webx.UnitOfWorkFilter;
+import org.qi4j.library.webx.vaadin.crud.impl.GridCrud;
+import org.qi4j.library.webx.vaadin.crud.impl.TreeGridCrud;
+import org.qi4j.library.webx.vaadin.Qi4jInstantiator;
 import org.hedhman.niclas.demo.ui.view.CrudWithFilterView;
 import org.hedhman.niclas.demo.ui.view.CrudWithLazyLoadingView;
 import org.hedhman.niclas.demo.ui.view.CrudWithSplitLayoutView;
 import org.hedhman.niclas.demo.ui.view.HomeView;
 import org.hedhman.niclas.demo.ui.view.SimpleCrudView;
 import org.hedhman.niclas.demo.ui.view.SimpleTreeCrudView;
-import org.qi4j.library.web.vaadin.crud.form.impl.form.factory.DefaultCrudFormFactory;
-import org.qi4j.library.web.vaadin.crud.layout.impl.WindowBasedCrudLayout;
+import org.qi4j.library.webx.vaadin.crud.form.impl.form.factory.DefaultCrudFormFactory;
+import org.qi4j.library.webx.vaadin.crud.layout.impl.WindowBasedCrudLayout;
 
 public class VaadinModule implements ModuleAssembler
 {

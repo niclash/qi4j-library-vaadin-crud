@@ -25,9 +25,9 @@ import org.apache.polygene.api.object.ObjectFactory;
 import org.hedhman.niclas.demo.entity.User;
 import org.hedhman.niclas.demo.service.GroupService;
 import org.hedhman.niclas.demo.service.UserService;
-import org.qi4j.library.web.vaadin.crud.LazyCrudListener;
-import org.qi4j.library.web.vaadin.crud.impl.GridCrud;
-import org.qi4j.library.web.vaadin.Qi4jManaged;
+import org.qi4j.library.webx.vaadin.crud.LazyCrudListener;
+import org.qi4j.library.webx.vaadin.crud.impl.GridCrud;
+import org.qi4j.library.webx.vaadin.Qi4jManaged;
 import org.hedhman.niclas.demo.ui.MainLayout;
 
 @Route(value = "lazy-loading", layout = MainLayout.class)
