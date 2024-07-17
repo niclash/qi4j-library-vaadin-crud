@@ -24,7 +24,7 @@ import jakarta.servlet.ServletException;
 import org.apache.polygene.api.structure.Module;
 import org.qi4j.library.webx.vaadin.Qi4jInstantiator;
 
-import static org.qi4j.library.webx.Qi4jContextListener.QI4J_VAADIN_MODULE;
+import static org.hedhman.niclas.demo.AppContextListener.QI4J_VAADIN_MODULE;
 
 /**
  * The entry point of the Spring Boot application.
