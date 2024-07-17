@@ -1,4 +1,6 @@
-NOTE: This is a fork of a Vaadin add-on that works with Spring, Spring Data and that eco-system. This fork was for Qi4j/Polygene and has been expanded to be a general extensible Web platform for Qi4j applications. Initially Vaading is supported, but there are plans for both Wicket and HTMX.
+NOTE: This is a fork of a Vaadin add-on that works with Spring, Spring Data and that eco-system. 
+This fork was for Qi4j/Polygene and has been expanded to be a general extensible Web platform 
+for Qi4j applications. Initially Vaading is supported, but there are plans for both Wicket and HTMX.
 
 # Vaadin Extension
 
@@ -174,4 +176,8 @@ formFactory.setButtonCaption(CrudOperation.ADD, "Add new user");
 crud.setRowCountCaption("%d user(s) found");
 ```
 &nbsp;
+
+# Wicket Extension
+
+# HTMX Extension
 
